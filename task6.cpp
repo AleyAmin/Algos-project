@@ -4,8 +4,10 @@
 #include <set>
 #include <tuple>
 using namespace std;
+
 const int BOARD_WIDTH = 4;
 const int BOARD_HEIGHT = 3;
+
 vector<pair<int, int>> initial_white_positions = { {3, 0}, {3, 1}, {3, 2} };
 vector<pair<int, int>> initial_black_positions = { {0, 0}, {0, 1}, {0, 2} };
 
